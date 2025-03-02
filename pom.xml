@@ -20,5 +20,14 @@
         <module>service</module>
         <module>api</module>
     </modules>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.1.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 </project>
